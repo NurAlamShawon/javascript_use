@@ -1,0 +1,47 @@
+.heading{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(43, 26, 26);
+}
+
+.posts{
+    padding: 5px;
+    width: 100%;
+   justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.post{ 
+    margin: 8px;
+    text-align: center;
+    width: 23%;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0.2);
+    transition: all 0.6s;
+}
+
+.post:hover{
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0.2);
+}
+
+
+@media screen  and (max-width:900px){
+    .post{ 
+        width: 33%;
+       
+    }
+  
+}
+@media screen  and (max-width:600px){
+    .post{ 
+        width: 100%;
+       
+    }
+  
+}
+@media screen  and (max-width:750px){
+    .post{ 
+        width: 50%;
+       
+    }
+  
+}
